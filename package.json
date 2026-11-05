@@ -4,7 +4,7 @@
   "version": "0.0.0",
   "type": "module",
   "dependencies": {
-    "@hono/zod-validator": "^0.5.0",
+    "@hono/zod-validator": "^0.9.1",
     "@pinecone-database/pinecone": "^6.1.2",
     "@rollup/plugin-commonjs": "^28.0.6",
     "@types/uuid": "^10.0.0",
@@ -15,7 +15,7 @@
     "minio": "^8.0.5",
     "node-html-parser": "^7.0.1",
     "node-pptx": "^1.0.0",
-    "openai": "^5.11.0",
+    "openai": "^7.51.0",
     "pdf-parse": "^1.1.1",
     "pdfjs-dist": "^5.4.54",
     "react": "19.0.0",
@@ -24,10 +24,10 @@
     "unpdf": "^1.2.2",
     "uuid": "^11.1.0",
     "youtube-transcript": "^1.2.1",
-    "zod": "^3.24.3"
+    "zod": "^4.6.7"
   },
   "devDependencies": {
-    "@cloudflare/vite-plugin": "^1.9.6",
+    "@cloudflare/vite-plugin": "^1.67.0",
     "@eslint/js": "9.25.1",
     "@getmocha/users-service": "^0.0.4",
     "@getmocha/vite-plugins": "latest",
@@ -47,7 +47,7 @@
     "typescript": "5.8.3",
     "typescript-eslint": "8.31.0",
     "vite": "^6.3.5",
-    "wrangler": "^4.25.0"
+    "wrangler": "^4.156.1"
   },
   "scripts": {
     "build": "tsc -b && vite build",
